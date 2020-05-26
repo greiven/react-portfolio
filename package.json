@@ -1,0 +1,35 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio react mdl",
+  "main": "index.js",
+  "dependencies": { "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-mdl": "^1.11.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0"},
+  "devDependencies": {},
+  
+  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greiven/react-portfolio.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Greivin Badilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greiven/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/greiven/react-portfolio#readme"
+}
+ 

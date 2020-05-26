@@ -1,0 +1,216 @@
+.header-color {
+  height: 80px;
+  background: linear-gradient(to right, #181818, #0f0f0f, #181818); 
+}
+
+.projects-grid {
+  display: flex;
+  padding: 0px;
+  background-color: #e7e7e7;
+  margin: 0;
+}
+.content{
+  background-color: #000;
+}
+
+/* Resume Page css */
+.aboutme-right-col {
+  background-image: url(./components/bg1.png);
+  color: white;
+  padding: 3em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.education{
+  text-align: center;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+img{
+border-radius: 50%;
+border: solid #2d6e2d 8px;
+box-shadow: 0px 0px 5px 2px  #000;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+/* .banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+} */
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+/* /////////projects ////*/
+
+.card{
+  background-color: #000;
+}
+
+.ft{
+  margin-top: 10px;
+  background: linear-gradient(to right, #181818, #0f0f0f, #181818); 
+  height: 60px;
+  border-top: white solid 1px;
+
+}
+.education{
+  margin-top: 30px;
+  padding: 10px;
+  height: 90px;
+  width: 800px;
+  background-color: rgb(20, 20, 20, 0.9);
+  overflow: auto;
+
+}
+.social{
+  overflow: auto;
+  margin-top: 30px;
+  padding: 10px;
+  height: 360px;
+  width: 800px;
+  background-color: rgb(20, 20, 20, 0.9);
+  margin-bottom: 30px;
+  
+}
+.title-footer{
+  margin-top: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+footer{
+  background-color: #000;
+}
+.fa {
+  margin: 10px;
+  text-decoration: none;
+  color:inherit;
+}
+a:visited{
+  color: #000;
+
+}
+a .fa{
+  color: #ffffff;
+}
+a :hover{
+  color: #2d6e2d;
+}
+h4{
+font-weight: bold;
+}
+
+
+@media (max-width:768px){
+  .education{
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+  .social{
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+
+  }
+
+}
+@media (max-width:500px){
+  .education{
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+  .social{
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+
+  }
+
+}
+img{
+margin-top: 90px;
+
+}
+
+
+
+
+
+
